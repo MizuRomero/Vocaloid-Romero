@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Support</title>
+		<link rel="icon" type="image/png" sizes="32x32" href="../Media/favicon-32x32.png">
+		<link rel="stylesheet" href="..//css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+		</style>
+	</head>
+	<body>
+		<header class="header">
+			<H1 id="PageTittle">VOCALOID<span class="tm">TM</span></H1>
+			<div>
+				<a href="https://es-la.facebook.com/HatsuneMikuOfficialPage" class="fa fa-facebook"></a>
+				<a href="https://twitter.com/cfm_miku_en" class="fa fa-twitter"></a>
+				<a href="https://www.instagram.com/cfm_miku_official/?hl=es" class="fa fa-instagram"></a>
+			</div>
+			<i id="menuBurger" class="fa fa-bars"></i>
+		</header>
+		<nav class="NavigationBar">
+			<div id="navbar_flex">
+        <ul>
+          <li><a id="home" href="../index.html">Home</a></li>
+          <li><a id="software" href="software.html">Software</a></li>
+          <li><a id="news" href="news.html">News</a></li>
+          <li><a id="merch" href="merch.html">Merch</a></li>
+          <li><a id="support" class="active" href="#">Support</a></li>
+        </ul>
+      </div>
+		</nav>
+		<section>
+            <article id="support-background-image" class="background-image">
+				<h1 class="page-tittle-image">Support</h1>
+			</article>
+    </section>
+    <section>
+      <article class="container-form">
+        <form action="action_page.php">
+          <legend>Contact Us</legend>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="gender">Gender</label>
+
+          <label class="container">Male
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+          </label>
+                          
+          <label class="container">Female
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+                          
+          <label class="container">Other
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+
+          <label for="email">Email</label>
+          <input type="text">
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit"> 
+
+          <input type="reset" value="Reset">
+        </form>
+      </article>
+    </section>
+		<footer>
+			<h3 class="FooterText" id="FooterTittle">VOCALOID<span id="tmFooter">TM</span></h3>
+			<h6 class="FooterText" id="Copyright">Copyright © 2022 <a href="https://www.vocaloid.com/en/">VOCALOID</a>. All rights reserved.</h6>
+		</footer>
+	</body>
+</html>
